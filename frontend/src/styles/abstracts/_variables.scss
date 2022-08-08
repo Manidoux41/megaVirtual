@@ -1,39 +1,30 @@
-// Nunito Bold
+@font-face {
+    font-family: 'Nunito';
+    src: url(../../assets/fonts/Nunito-Regular.ttf);
+}
 
-// font-family: nunito, sans-serif;
+@font-face {
+    font-family: 'NunitoSBlack';
+    src: url(../../assets/fonts/Nunito-Black.ttf);
+}
 
-// font-weight: 700;
+@font-face {
+    font-family: 'NunitoSans';
+    src: url(../../assets/fonts/NunitoSans/NunitoSans-Bold.ttf);
+}
 
-// font-style: normal;
+@font-face {
+    font-family: 'NunitoSansBlack' ;
+    src: url(../../assets/fonts/NunitoSans/NunitoSans-Black.ttf);
+}
 
-
-// Nunito Regular
-
-// font-family: nunito, sans-serif;
-
-// font-weight: 400;
-
-// font-style: normal;
-
-
-// Nunito Italic
-
-// font-family: nunito, sans-serif;
-
-// font-weight: 400;
-
-// font-style: italic;
-
-
-// Nunito Bold Italic
-
-// font-family: nunito, sans-serif;
-
-// font-weight: 700;
-
-// font-style: italic;
-
-$fontNun: 'nunito, sans-serif';
-$fonBold: 'NunitoBold';
+@font-face {
+    font-family: 'NunitoReg';
+    src: url(../../assets/fonts/NunitoSans/NunitoSans-Regular.ttf);
+}
+$fontNun: 'Nunito';
+$fonBold: 'NunitoSans';
+$fontSBlack : 'NunitoSansBlack';
+$fontReg: 'NunitoReg';
 
 $color-1: blue;
