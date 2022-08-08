@@ -4,11 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: $fontSBlack;
 }
 
 body {
-    font-family: nunito, sans-serif;
-    font-weight: 700;
+    font-family: $fontReg;
     font-style: normal;
     color: $color-1;
     text-align: center;

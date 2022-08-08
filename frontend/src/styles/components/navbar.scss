@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+
+.navbar {
+    height: 120px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    h1 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+}
