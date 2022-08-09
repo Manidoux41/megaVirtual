@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/megaVirtual/static/css/main.f707b967.css",
+    "main.js": "/megaVirtual/static/js/main.989865f3.js",
+    "static/media/NunitoSans-Bold.ttf": "/megaVirtual/static/media/NunitoSans-Bold.022586a78ea7c9bee9da.ttf",
+    "static/media/NunitoSans-Black.ttf": "/megaVirtual/static/media/NunitoSans-Black.b6a9ed3db8aa0a3a38d6.ttf",
+    "static/media/NunitoSans-Regular.ttf": "/megaVirtual/static/media/NunitoSans-Regular.a427ddbe4dc20889d6e0.ttf",
+    "static/media/Nunito-Regular.ttf": "/megaVirtual/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
+    "static/media/Nunito-Black.ttf": "/megaVirtual/static/media/Nunito-Black.969e95ce4a719e43f654.ttf",
+    "index.html": "/megaVirtual/index.html",
+    "main.f707b967.css.map": "/megaVirtual/static/css/main.f707b967.css.map",
+    "main.989865f3.js.map": "/megaVirtual/static/js/main.989865f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f707b967.css",
+    "static/js/main.989865f3.js"
+  ]
+}
