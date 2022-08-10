@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+@use '../components/navbar.scss';
+@use '../components/footer.scss';
+
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

@@ -7,8 +7,12 @@ const Navbar = () => {
             <h1>Mega</h1>
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/" className={ ({isActive}) => (isActive ? "item__active" : "") }>Home</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/test" className={ ({isActive}) => (isActive ? "item__active" : "") }>Test</NavLink>
+                </li>   
+                
             </ul>
         </div>
     );
