@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Footer from './Footer';
 import Home from '../pages/Home';
 import { Routes, Route } from 'react-router-dom';
+import Header from './Header';
 
 const Layout = () => {
     return (
         <div className='layout'>
-            <Navbar />
+            <Header />
                 <Routes>
                         <Route path="/" element={<Home />} />
                 </Routes>

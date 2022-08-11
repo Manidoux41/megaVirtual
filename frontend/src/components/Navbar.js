@@ -1,16 +1,25 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import Logo from '../assets/images/Logo.png'
 const Navbar = () => {
     return (
         <div className="navbar">
-            <h1>Mega</h1>
+            <img src={Logo} alt="logo_Mega" />
             <ul>
                 <li>
-                    <NavLink to="/" className={ ({isActive}) => (isActive ? "item__active" : "") }>Home</NavLink>
+                    <NavLink to="/" className={ ({isActive}) => (isActive ? "item__active" : "") }>La Compagnie</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/test" className={ ({isActive}) => (isActive ? "item__active" : "") }>Test</NavLink>
+                    <NavLink to="/test" className={ ({isActive}) => (isActive ? "item__active" : "") }>La Flotte</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/" className={ ({isActive}) => (isActive ? "item__active" : "") }>L'equipage</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/" className={ ({isActive}) => (isActive ? "item__active" : "") }>Espace Candidat</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/" className={ ({isActive}) => (isActive ? "item__active" : "") }>Espace Intranet</NavLink>
                 </li>   
                 
             </ul>

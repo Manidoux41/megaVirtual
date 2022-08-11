@@ -1,7 +1,6 @@
 @use '../abstracts/' as *;
-
-@use '../components/navbar.scss';
-@use '../components/footer.scss';
+@use './Header/header.scss';
+@use './Footer/footer.scss';
 
 .layout {
     min-height: 100vh;

@@ -22,10 +22,21 @@
     font-family: 'NunitoReg';
     src: url(../../assets/fonts/NunitoSans/NunitoSans-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'InterExtra';
+    src: url(../../assets/fonts/Inter/static/Inter-ExtraBold.ttf);
+}
+
 $fontNun: 'Nunito';
 $fonBold: 'NunitoSans';
 $fontSBlack : 'NunitoSansBlack';
 $fontReg: 'NunitoReg';
 
+$interMenu: InterExtra;
+
+
 $color-1: blue;
-$colorLinear: linear-gradient(75deg, rgb(255, 2, 2),rgba(209, 9, 9, 0.733), rgba(221, 61, 12, 0.671))
+$colorLinear: linear-gradient(75deg, rgb(255, 2, 2),rgba(209, 9, 9, 0.733), rgba(221, 61, 12, 0.671));
+$linearheader: linear-gradient(88.94deg, #0D2C99 0.52%, rgb(255, 255, 255) 100%);
+
