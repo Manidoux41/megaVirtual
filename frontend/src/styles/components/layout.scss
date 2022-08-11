@@ -1,0 +1,11 @@
+@use '../abstracts/' as *;
+@use './Header/header.scss';
+@use './Footer/footer.scss';
+
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

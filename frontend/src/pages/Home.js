@@ -5,7 +5,7 @@ import Post from '../components/Post';
 const Home = () => {
     return (
         <div className="homepage">
-            <Navbar />
+           
             <Post />
         </div>
     );

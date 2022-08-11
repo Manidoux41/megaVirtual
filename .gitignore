@@ -3,3 +3,4 @@
 /server/.env
 /server/public/bundles/
 /server/var/
+/api/node_modules

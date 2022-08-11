@@ -1,0 +1,9 @@
+@use '../../abstracts/' as *;
+@use './navbar.scss';
+@use './banner.scss';
+
+.header {
+ position: relative;
+ max-height: 650px;
+  
+}

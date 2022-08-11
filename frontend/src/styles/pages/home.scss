@@ -1,7 +1,6 @@
 @use '../abstracts/' as *;
-@use '../components/navbar.scss';
 
 .homepage{
     width:100%;
-    height: 100vh;
+    min-height: 80vh;
 }
